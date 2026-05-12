@@ -86,7 +86,7 @@ plt.show()
 ### 6. Separate Features and Target:
 
 ```python3
-X = data.drop('MEDV', axis=1)   # all columns except house price
+X = data.drop('MEDV', axis=1)  #errors='ignore' # all columns except house price
 y = data['MEDV']                 # target: median house price
 ```
 
